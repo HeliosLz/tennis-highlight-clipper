@@ -1,0 +1,24 @@
+backend/.venv/
+backend/data/
+frontend/node_modules/
+frontend/dist/
+.DS_Store
+.gstack/
+
+# --- public-release additions ---
+.pnpm-store/
+explainer/out/
+explainer/__pycache__/
+**/__pycache__/
+*.mp4
+*.mov
+*.webm
+*.wav
+*.pt
+*.bak
+explainer/.probe/
+*.caf
+*.tsbuildinfo
+
+# --- kept private: 含针对某公司具体产品的功能级分析，不公开 ---
+docs/product-feature-plan.md

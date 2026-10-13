@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background: #0a0f0a;
+  color: #e7f5e7;
+  font-family: ui-sans-serif, system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+.tennis-green {
+  background: linear-gradient(135deg, #b6f41e 0%, #7ed321 100%);
+}
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background: #2a3a2a; border-radius: 4px; }
+::-webkit-scrollbar-track { background: transparent; }

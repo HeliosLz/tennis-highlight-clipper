@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1760" height="940" viewBox="0 0 1760 940">
+  <defs>
+    <pattern id="mesh" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M0,0 L26,26 M26,0 L0,26" stroke="#a0aec0" stroke-width="1.1" fill="none"/>
+    </pattern>
+  </defs>
+
+  <rect width="1760" height="940" fill="#ffffff"/>
+
+  <text x="60" y="58" font-family="PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, sans-serif" font-size="34" font-weight="700" fill="#1a202c">挡网的结构 —— 该绑在哪里</text>
+  <text x="60" y="92" font-family="PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, sans-serif" font-size="19" fill="#718096">把手机固定在挡网上时，选错部件会让整套方案失效：背景建模要求画面静止，而网面恰恰是整面挡网里唯一会动的部分。</text>
+  <line x1="60" y1="112" x2="1700" y2="112" stroke="#e2e8f0" stroke-width="2"/>
+
+  <!-- ================= 挡网正视 ================= -->
+  <rect x="70" y="760" width="1080" height="118" fill="#dbe7e4"/>
+  <line x1="70" y1="760" x2="1150" y2="760" stroke="#a0aec0" stroke-width="2"/>
+  <text x="86" y="862" font-family="PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, sans-serif" font-size="18" fill="#718096">球场地面</text>
+
+  <rect x="179" y="214" width="882" height="530" fill="url(#mesh)"/>
+
+  <rect x="170" y="200" width="18" height="560" rx="3" fill="#2d3748"/>
+  <rect x="620" y="200" width="18" height="560" rx="3" fill="#2d3748"/>
+  <rect x="1070" y="200" width="18" height="560" rx="3" fill="#2d3748"/>
+
+  <rect x="161" y="200" width="936" height="14" rx="5" fill="#2d3748"/>
+  <rect x="161" y="204" width="936" height="3" fill="#a0aec0" opacity="0.55"/>
+  <rect x="161" y="470" width="936" height="12" rx="4" fill="#2d3748"/>
+  <rect x="161" y="473" width="936" height="3" fill="#a0aec0" opacity="0.55"/>
+  <rect x="161" y="744" width="936" height="12" rx="4" fill="#2d3748"/>
+
+  <!-- 自拍杆 + 手机 绑在右侧立柱 -->
+  <rect x="1050" y="310" width="11" height="390" rx="5" fill="#b7791f"/>
+  <rect x="1038" y="250" width="36" height="64" rx="7" fill="#1a202c"/>
+  <rect x="1043" y="256" width="26" height="52" rx="4" fill="#4299e1"/>
+  <rect x="1044" y="392" width="42" height="11" rx="5" fill="#38a169"/>
+  <rect x="1044" y="622" width="42" height="11" rx="5" fill="#38a169"/>
+
+  <!-- 内嵌标注 -->
+  <text x="155" y="436" text-anchor="end" font-family="PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#2d3748">立柱</text>
+  <line x1="160" y1="428" x2="170" y2="428" stroke="#2d3748" stroke-width="2"/>
+
+  <text x="330" y="186" font-family="PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#2d3748">横杆（钢管）</text>
+  <line x1="352" y1="192" x2="352" y2="200" stroke="#2d3748" stroke-width="2"/>
+
+  <rect x="742" y="580" width="164" height="34" rx="7" fill="#ffffff" opacity="0.92"/>
+  <text x="824" y="605" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#c53030">网面（铁丝网）</text>
+
+  <!-- 编号圈 -->
+  <circle cx="170" cy="620" r="17" fill="#ffffff" stroke="#38a169" stroke-width="3"/>
+  <text x="170" y="627" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#2f855a">1</text>
+  <circle cx="400" cy="470" r="17" fill="#ffffff" stroke="#38a169" stroke-width="3"/>
+  <text x="400" y="477" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#2f855a">2</text>
+  <circle cx="880" cy="620" r="17" fill="#ffffff" stroke="#e53e3e" stroke-width="3"/>
+  <text x="880" y="627" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#c53030">3</text>
+  <circle cx="1118" cy="500" r="17" fill="#ffffff" stroke="#38a169" stroke-width="3"/>
+  <text x="1118" y="507" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#2f855a">4</text>
+  <line x1="1101" y1="500" x2="1066" y2="512" stroke="#38a169" stroke-width="2" stroke-dasharray="4 3"/>
+
+  <!-- ================= 图例 ================= -->
+  <line x1="1180" y1="140" x2="1180" y2="900" stroke="#e2e8f0" stroke-width="2"/>
+
+  <text x="1214" y="176" font-family="PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="700" fill="#1a202c">该绑哪里</text>
+
+  <circle cx="1232" cy="234" r="17" fill="#ffffff" stroke="#38a169" stroke-width="3"/>
+  <text x="1232" y="241" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#2f855a">1</text>
+  <text x="1264" y="228" font-family="PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#1a202c">立柱</text>
+  <text x="1264" y="258" font-family="PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, sans-serif" font-size="18" fill="#4a5568">竖向的粗钢管，埋在混凝土里</text>
+  <text x="1264" y="284" font-family="PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, sans-serif" font-size="18" fill="#4a5568">整面挡网里最刚性的部件</text>
+  <text x="1264" y="316" font-family="PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="700" fill="#2f855a">✔ 首选，绑这里</text>
+
+  <circle cx="1232" cy="392" r="17" fill="#ffffff" stroke="#38a169" stroke-width="3"/>
+  <text x="1232" y="399" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#2f855a">2</text>
+  <text x="1264" y="386" font-family="PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#1a202c">横杆</text>
+  <text x="1264" y="416" font-family="PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, sans-serif" font-size="18" fill="#4a5568">横着连接在立柱之间的钢管</text>
+  <text x="1264" y="442" font-family="PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, sans-serif" font-size="18" fill="#4a5568">上沿那根通常 3–4 米高，位置正好</text>
+  <text x="1264" y="474" font-family="PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="700" fill="#2f855a">✔ 也可以绑，高度更好调</text>
+
+  <circle cx="1232" cy="550" r="17" fill="#ffffff" stroke="#e53e3e" stroke-width="3"/>
+  <text x="1232" y="557" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#c53030">3</text>
+  <text x="1264" y="544" font-family="PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#1a202c">网面</text>
+  <text x="1264" y="574" font-family="PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, sans-serif" font-size="18" fill="#4a5568">细铁丝编的菱形网，没有骨架</text>
+  <text x="1264" y="600" font-family="PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, sans-serif" font-size="18" fill="#4a5568">球撞上去、起风都会整片晃</text>
+  <text x="1264" y="632" font-family="PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="700" fill="#c53030">✘ 不要绑</text>
+
+  <circle cx="1232" cy="708" r="17" fill="#ffffff" stroke="#38a169" stroke-width="3"/>
+  <text x="1232" y="715" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#2f855a">4</text>
+  <text x="1264" y="702" font-family="PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#1a202c">自拍杆 + 扎带</text>
+  <text x="1264" y="732" font-family="PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, sans-serif" font-size="18" fill="#4a5568">上下两道扎带，两点固定</text>
+  <text x="1264" y="758" font-family="PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, sans-serif" font-size="18" fill="#4a5568">单点固定会以固定点为轴摆动</text>
+  <text x="1264" y="790" font-family="PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="700" fill="#2f855a">✔ 正确绑法</text>
+
+  <text x="60" y="918" font-family="PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, sans-serif" font-size="19" fill="#4a5568">一句话：立柱和横杆是「骨架」，网面是「皮」。手机要绑在骨架上，不能绑在皮上。</text>
+</svg>

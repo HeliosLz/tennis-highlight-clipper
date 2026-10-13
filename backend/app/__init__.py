@@ -1,0 +1,1 @@
+"""Tennis Highlight Clipper backend."""
